@@ -39,7 +39,6 @@
 		9BD56FC527A93BC0009CA366 /* NavigationButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD56FC427A93BC0009CA366 /* NavigationButtonsView.swift */; };
 		9BD56FC627A93BC0009CA366 /* NavigationButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD56FC427A93BC0009CA366 /* NavigationButtonsView.swift */; };
 		9BD56FC827A94728009CA366 /* Color+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD56FC727A94728009CA366 /* Color+Extention.swift */; };
-		9BD56FCA27A94B2D009CA366 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD56FC927A94B2D009CA366 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,7 +85,6 @@
 		9BD56FC127A91772009CA366 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		9BD56FC427A93BC0009CA366 /* NavigationButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationButtonsView.swift; sourceTree = "<group>"; };
 		9BD56FC727A94728009CA366 /* Color+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extention.swift"; sourceTree = "<group>"; };
-		9BD56FC927A94B2D009CA366 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,7 +177,6 @@
 		9BD56F8E27A8A2E0009CA366 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				9BD56FC927A94B2D009CA366 /* ContentView.swift */,
 				9BD56FB627A8EE80009CA366 /* RootView.swift */,
 				9BD56F6627A8A29E009CA366 /* ListingsView.swift */,
 				9BD56FB327A8D5D6009CA366 /* ListingRowView.swift */,
@@ -382,7 +379,6 @@
 				9BD56FBD27A9010E009CA366 /* MyTradeMeView.swift in Sources */,
 				9BD56F6727A8A29E009CA366 /* ListingsView.swift in Sources */,
 				9BD56FC827A94728009CA366 /* Color+Extention.swift in Sources */,
-				9BD56FCA27A94B2D009CA366 /* ContentView.swift in Sources */,
 				9BD56FA127A8A418009CA366 /* BaseViewModel.swift in Sources */,
 				9BD56F9B27A8A3BF009CA366 /* ApiManager.swift in Sources */,
 				9BD56FB727A8EE80009CA366 /* RootView.swift in Sources */,
