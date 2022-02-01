@@ -33,12 +33,11 @@ struct ListingRowView: View {
             VStack(alignment: .leading) {
                 Text(listing.region ?? "Unspecified")
                     .font(.listingRowSmall)
-                    .foregroundColor(.gray) // change to TM colour
+                    .foregroundColor(.gray)
                 
                 Text(listing.title)
                     .font(.listingRowStandard)
                     .bold()
-//                    .foregroundColor(.gray) // change to TM colour
                                
                 Spacer()
              
@@ -71,7 +70,7 @@ struct PurchasingView : View {
                     let costLabel = (listing.isClassified ?? false) ? "Asking Price" : "Start price"
                         Text(costLabel)
                             .font(.listingRowSmall)
-                            .foregroundColor(.gray) // change to TM colour
+                            .foregroundColor(.gray)
                 }
             }
             
@@ -84,7 +83,7 @@ struct PurchasingView : View {
                         .bold()
                     Text("Buy Now")
                         .font(.listingRowSmall)
-                        .foregroundColor(.gray) // change to TM colour
+                        .foregroundColor(.gray)
                         .bold()
                 }
             }

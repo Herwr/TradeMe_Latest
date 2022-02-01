@@ -3,6 +3,7 @@
 //  TradeMe_Categories
 //
 //  Created by Rich on 1/29/22.
+//  Copyright © 2022 Funky Gadget Limited. All rights reserved.
 //
 
 import Foundation
