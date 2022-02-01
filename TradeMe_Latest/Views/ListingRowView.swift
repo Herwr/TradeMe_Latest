@@ -33,15 +33,16 @@ struct ListingRowView: View {
             VStack(alignment: .leading) {
                 Text(listing.region ?? "Unspecified")
                     .font(.listingRowSmall)
-                    .foregroundColor(.gray)
+                    .foregroundColor(.bluffOyster600)
                 
                 Text(listing.title)
                     .font(.listingRowStandard)
                     .bold()
-                               
+                    .foregroundColor(.bluffOyster800)
+
                 Spacer()
              
-                PurchasingView(listing: listing)
+                PurchaseView(listing: listing)
             }
         }
         .onTapGesture { showTapAlert = true }
@@ -55,7 +56,7 @@ struct ListingRowView: View {
     }
 }
 
-struct PurchasingView : View {
+struct PurchaseView : View {
     @State var listing: Listing
     
     var body: some View {
@@ -65,12 +66,12 @@ struct PurchasingView : View {
                     Text("$\(String(format: "%.02f", startPrice))")
                         .font(.listingRowStandard)
                         .bold()
-
+                        .foregroundColor(.bluffOyster800)
                     
                     let costLabel = (listing.isClassified ?? false) ? "Asking Price" : "Start price"
                         Text(costLabel)
                             .font(.listingRowSmall)
-                            .foregroundColor(.gray)
+                            .foregroundColor(.bluffOyster600)
                 }
             }
             
@@ -81,10 +82,13 @@ struct PurchasingView : View {
                     Text("$\(String(format: "%.02f", buyNowPrice))")
                         .font(.listingRowStandard)
                         .bold()
+                        .foregroundColor(.bluffOyster800)
+
                     Text("Buy Now")
                         .font(.listingRowSmall)
                         .foregroundColor(.gray)
                         .bold()
+                        .foregroundColor(.bluffOyster600)
                 }
             }
         }
@@ -94,5 +98,6 @@ struct PurchasingView : View {
 struct ListingRowView_Previews: PreviewProvider {
     static var previews: some View {
         ListingRowView(listing: Listing.testData[0])
+            .frame(width: 100, height:100, alignment: .leading)
     }
 }

@@ -16,10 +16,10 @@ struct NavigationButtonsView: View {
     var body: some View {
         HStack {
             Button(action: { searchAction() }) {
-                    Image(systemName: "magnifyingglass").imageScale(.large)
+                    Image("search").imageScale(.large)
             }
             Button(action: { cartAction() }) {
-                    Image(systemName: "cart").imageScale(.large)
+                    Image("cart").imageScale(.large)
             }
         }
         .alert(isPresented: $showAlert) {

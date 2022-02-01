@@ -29,3 +29,9 @@ struct LatestListings : Codable {
      "PageSize": 50,
      "List": [Listing]
  */
+
+extension LatestListings {
+    static var testData: LatestListings {
+        return LatestListings(totalCount: 1, page: 1, pageSize: 1, list: Listing.testData)
+    }
+}

@@ -24,7 +24,7 @@ struct RootView: View {
                 .tabItem {
                     VStack {
                         Text("Latest Listings")
-                        Image(systemName: "magnifyingglass")
+                        Image("search")
                     }
                 }
 
@@ -33,7 +33,7 @@ struct RootView: View {
                 .tabItem {
                     VStack {
                         Text("Watchlist")
-                        Image(systemName: "binoculars")
+                        Image("watchlist")
                     }
                 }
 
@@ -42,7 +42,7 @@ struct RootView: View {
                 .tabItem {
                     VStack {
                         Text("My TradeMe")
-                        Image(systemName: "person.crop.circle")
+                        Image("profile-16")
                     }
                 }
         }

@@ -9,7 +9,7 @@
 import Foundation
 import Combine
 
-class ListingsViewModel : BaseViewModel {
+final class ListingsViewModel : BaseViewModel {
     @Published var listings = [Listing]()
     
     private var latestListings: LatestListings?

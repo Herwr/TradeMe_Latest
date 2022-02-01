@@ -11,7 +11,7 @@
 		9BD56F6727A8A29E009CA366 /* ListingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD56F6627A8A29E009CA366 /* ListingsView.swift */; };
 		9BD56F6927A8A2A3009CA366 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BD56F6827A8A2A3009CA366 /* Assets.xcassets */; };
 		9BD56F6C27A8A2A3009CA366 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BD56F6B27A8A2A3009CA366 /* Preview Assets.xcassets */; };
-		9BD56F7627A8A2A4009CA366 /* TradeMe_LatestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD56F7527A8A2A4009CA366 /* TradeMe_LatestTests.swift */; };
+		9BD56F7627A8A2A4009CA366 /* OAuthHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD56F7527A8A2A4009CA366 /* OAuthHelperTests.swift */; };
 		9BD56F8027A8A2A4009CA366 /* TradeMe_LatestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD56F7F27A8A2A4009CA366 /* TradeMe_LatestUITests.swift */; };
 		9BD56F8227A8A2A4009CA366 /* TradeMe_LatestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD56F8127A8A2A4009CA366 /* TradeMe_LatestUITestsLaunchTests.swift */; };
 		9BD56F9727A8A3BF009CA366 /* OAuthHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD56F9427A8A3BF009CA366 /* OAuthHelper.swift */; };
@@ -39,6 +39,9 @@
 		9BD56FC527A93BC0009CA366 /* NavigationButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD56FC427A93BC0009CA366 /* NavigationButtonsView.swift */; };
 		9BD56FC627A93BC0009CA366 /* NavigationButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD56FC427A93BC0009CA366 /* NavigationButtonsView.swift */; };
 		9BD56FC827A94728009CA366 /* Color+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD56FC727A94728009CA366 /* Color+Extention.swift */; };
+		9BD56FCC27A9CFBA009CA366 /* EndpointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD56FCB27A9CFBA009CA366 /* EndpointTests.swift */; };
+		9BD56FCE27A9D0AC009CA366 /* ListingsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD56FCD27A9D0AC009CA366 /* ListingsViewModelTests.swift */; };
+		9BD56FCF27A9D558009CA366 /* ListingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD56FAB27A8A52E009CA366 /* ListingsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,7 +68,7 @@
 		9BD56F6827A8A2A3009CA366 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BD56F6B27A8A2A3009CA366 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9BD56F7127A8A2A4009CA366 /* TradeMe_LatestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TradeMe_LatestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9BD56F7527A8A2A4009CA366 /* TradeMe_LatestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeMe_LatestTests.swift; sourceTree = "<group>"; };
+		9BD56F7527A8A2A4009CA366 /* OAuthHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAuthHelperTests.swift; sourceTree = "<group>"; };
 		9BD56F7B27A8A2A4009CA366 /* TradeMe_LatestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TradeMe_LatestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BD56F7F27A8A2A4009CA366 /* TradeMe_LatestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeMe_LatestUITests.swift; sourceTree = "<group>"; };
 		9BD56F8127A8A2A4009CA366 /* TradeMe_LatestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeMe_LatestUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -85,6 +88,8 @@
 		9BD56FC127A91772009CA366 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		9BD56FC427A93BC0009CA366 /* NavigationButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationButtonsView.swift; sourceTree = "<group>"; };
 		9BD56FC727A94728009CA366 /* Color+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extention.swift"; sourceTree = "<group>"; };
+		9BD56FCB27A9CFBA009CA366 /* EndpointTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndpointTests.swift; sourceTree = "<group>"; };
+		9BD56FCD27A9D0AC009CA366 /* ListingsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingsViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,7 +165,9 @@
 		9BD56F7427A8A2A4009CA366 /* TradeMe_LatestTests */ = {
 			isa = PBXGroup;
 			children = (
-				9BD56F7527A8A2A4009CA366 /* TradeMe_LatestTests.swift */,
+				9BD56F7527A8A2A4009CA366 /* OAuthHelperTests.swift */,
+				9BD56FCB27A9CFBA009CA366 /* EndpointTests.swift */,
+				9BD56FCD27A9D0AC009CA366 /* ListingsViewModelTests.swift */,
 			);
 			path = TradeMe_LatestTests;
 			sourceTree = "<group>";
@@ -397,15 +404,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BD56F9C27A8A3BF009CA366 /* ApiManager.swift in Sources */,
+				9BD56FCF27A9D558009CA366 /* ListingsViewModel.swift in Sources */,
 				9BD56FC327A91772009CA366 /* Endpoint.swift in Sources */,
 				9BD56FC627A93BC0009CA366 /* NavigationButtonsView.swift in Sources */,
+				9BD56FCE27A9D0AC009CA366 /* ListingsViewModelTests.swift in Sources */,
 				9BD56FB227A8AE94009CA366 /* LatestListings.swift in Sources */,
 				9BD56FAF27A8ABFE009CA366 /* Listing.swift in Sources */,
-				9BD56F7627A8A2A4009CA366 /* TradeMe_LatestTests.swift in Sources */,
+				9BD56F7627A8A2A4009CA366 /* OAuthHelperTests.swift in Sources */,
 				9BD56F9F27A8A3D8009CA366 /* Credentials.swift in Sources */,
 				9BD56F9827A8A3BF009CA366 /* OAuthHelper.swift in Sources */,
 				9BD56F9A27A8A3BF009CA366 /* ApiInterface.swift in Sources */,
 				9BD56FA227A8A419009CA366 /* BaseViewModel.swift in Sources */,
+				9BD56FCC27A9CFBA009CA366 /* EndpointTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
